@@ -25,6 +25,6 @@ Don't Forget To Give Star
 
 module.exports = app
 /**
-    powered by wasi tech team 
+    powered by Son Altesse Royal
     join Whatsapp channel for more updates 
     **/
