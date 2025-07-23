@@ -57,21 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by ZENITSU*
-*_Made With 🚬🗿_*
+*_Pair Code Connected by Son Altesse*
+*_Royal protection🌹🇨🇩_*
 ______________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN ZENITSU CRASH V2 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+║ *『 *Son Altesse Royal* 』*
+║ _*Félicitations ! Grâce à votre connexion à la session VIP, vous bénéficiez désormais d’une auto-protection valable pour 5 jours. N’oubliez pas de renouveler votre protection à temps.*_
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _https://www.youtube.com/@BTSMODZ
-║❒ *Owner:* https://wa.me/2348075952205_
-║❒ *Repo:* _https://github.com/Fearless-tech1_
-║❒ *WaGroup:* _https://chat.whatsapp.com/C3GFThC0tIpGaJY9DFUeCK
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VahusSh0QeaoFzHJCk2x
-║❒ *Plugins:* _https://github.com/Fearless-tech1 
+║❒ *Dark gpt:* _https://flowgpt.com/chat/darkgpt-21102023
+║❒ *Owner:* https://wa.me/243905526836_
+║❒ *Repo:* _https://github.com/Chadro14/Altesse-sision-VIP_
+║❒ *WaGroup:* _https://chat.whatsapp.com/FDcrFC6rtzh1zrdyWPczz2?mode=ac_t
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vb5xgT01CYoIzsmkzj1B
+║❒ *Royal bug:* en cours✓
 ╚════════════════════════╝
 _____________________________________
 
