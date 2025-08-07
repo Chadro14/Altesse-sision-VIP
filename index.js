@@ -63,3 +63,19 @@ client.on('message', async (msg) => {
     if (expire && expire > now) {
       await msg.reply(`✅ Protection active jusqu'au ${expire.toLocaleDateString()}.`);
     } else {
+
+
+      `js
+const { isAuthorizedAdminCommand, handleAdmin } = require("./admin/protect");
+
+sock.ev.on("messages.upsert", async ({ messages }) => {
+  const msg = messages[0];
+  if (!msg.message || !msg.message.conversation) return;
+
+  if (isAuthorizedAdminCommand(msg)) {
+    handleAdmin(sock, msg);
+  }
+});
+```
+
+
