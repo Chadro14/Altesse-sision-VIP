@@ -59,8 +59,8 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By Son Altesse*
-*_Made in congo🇨🇩👌🏽_*
+*_Royale-protector*
+*_un IA invisible sur votre WhatsApp connecté_
 ______________________________________
 ╔════◇
 ║ *『 bienvenue sur Royal protection une lutte contre les hackers 』*
@@ -71,7 +71,7 @@ ______________________________________
 ║❒ *contact support:* https://wa.me/23905526836*_ 
   *by Son Altesse Royal 🌹*
 ╚════════════════════════╝
-_____________________________________
+__________________________________
 	
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
