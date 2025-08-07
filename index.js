@@ -32,3 +32,36 @@ client.on('message', async msg => {
 client.initialize();
 ```
 
+
+
+
+```js
+const protections = new Map();
+const ADMIN_CODE = "252006";
+const PREFIX = ".";
+
+client.on('message', async (msg) => {
+  const text = msg.body.trim();
+  const user = msg.from;
+
+  // Activation protection avec code
+  if (text === `PREFIX{ADMIN_CODE}`) {
+    const expiration = new Date();
+    expiration.setDate(expiration.getDate() + 5);
+    protections.set(user, expiration);
+
+    await msg.reply(
+      `🛡️ Félicitations !\nVotre protection est activée jusqu'au expiration.toLocaleDateString().🔐 Merci d’avoir utilisé Royale Protector.`
+    );
+    return;
+  
+
+  // Vérifier le statut de protection
+  if (text === `{PREFIX}statut`) {
+    const now = new Date();
+    const expire = protections.get(user);
+
+    if (expire && expire > now) {
+      await msg.reply(`✅ Protection active jusqu'au ${expire.toLocaleDateString()}.`);
+    } else {
+
