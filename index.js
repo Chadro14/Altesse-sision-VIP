@@ -79,3 +79,57 @@ sock.ev.on("messages.upsert", async ({ messages }) => {
 ```
 
 
+```js
+const { Client } = require('whatsapp-web.js');
+const qrcode = require('qrcode-terminal');
+const commands = require('./commands');
+
+const client = new Client();
+
+client.on('qr', (qr) => {
+  qrcode.generate(qr, {small: true});
+
+
+  console.log('Scanne ce QR Code avec WhatsApp');
+});
+
+client.on('ready', () => {
+  console.log('Client prêt !');
+});
+
+client.on('message', async msg => {
+  if (!msg.body.startsWith('.')) return;
+
+  const [cmd, ...args] = msg.body.slice(1).trim().split(/\s+/);
+
+  if (commands[cmd]) {
+    try {
+      await commands[cmd].execute(msg, args);
+    } catch (e) {
+      msg.reply("❌ Erreur lors de la commande.");
+    }
+  }
+});
+
+client.initialize();
+```
+
+---
+
+*3. package.json* (minimal) :
+
+```json
+{
+  "name": "royal-protector-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "whatsapp-web.js": "^1.18.4",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
+```
+
