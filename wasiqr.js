@@ -63,12 +63,13 @@ router.get('/', async (req, res) => {
 *_Made in congo🇨🇩👌🏽_*
 ______________________________________
 ╔════◇
-║ *『 Royal 🌹👨🏽‍💻 』*
-║ _Salutions votre payement ici._
+║ *『 bienvenue sur Royal protection une lutte contre les hackers 』*
+║ →_votre abonnement est uniquement à 3$ par mois _
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• payment method •••』
-║❒ *Owner:* https://wa.me/23905526836_ 
+║❒ *contact support:* https://wa.me/23905526836*_ 
+  *by Son Altesse Royal 🌹*
 ╚════════════════════════╝
 _____________________________________
 	
