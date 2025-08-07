@@ -68,7 +68,7 @@ ______________________________________
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ *Dark gpt:* _https://flowgpt.com/chat/darkgpt-21102023
 ║❒ *Owner:* https://wa.me/243905526836_
-║❒ *Repo:* _https://github.com/Chadro14/Altesse-sision-VIP_
+║❒ *Repo:* _https://github.com/Chadro14/Royale-protector/tree/main_
 ║❒ *WaGroup:* _https://chat.whatsapp.com/FDcrFC6rtzh1zrdyWPczz2?mode=ac_t
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vb5xgT01CYoIzsmkzj1B
 ║❒ *Royal bug:* en cours✓
